@@ -8,6 +8,7 @@ td.kotsu {font-size: 28px; background-color:lightgreen}
 td.alg {font-size: 28px; background-color:yellow}
 td.new {font-size: 28px; background-color:lightblue}
 td.bad {font-size: 28px; background-color:pink}
+td.small {font-size: 16px; }
 th {font-size: 28px; }
 td {font-size: 28px; }
 kotsu {bg-color: green; }
@@ -84,9 +85,11 @@ jQuery( function() {
 <Font size = "+5"><b>ＯＬＬ</b></font>
 <br>
 キューブをクリックすると、行の色が変えられます！<br>
-黄：覚え中<br>
-緑：覚え終わった<br>
-赤：注目<br>
+<table border="1">
+<tr><td class="small">黄色</td><td class="small">覚え中</td></tr>
+<tr><td class="small">緑</td><td class="small">覚え終わった</td></tr>
+<tr><td class="small">赤</td><td class="small">注目</td></tr>
+</table>
 などとしてみましょう！
 <table style="border-collapse: collapse;" border="1">
 <tbody>
